@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-7</title>
+
+</head>
+<body>
+    <label for="NPM">NPM</label>
+    <input type="number" id="NPM" name="NPM">
+<p> <label for="funame">Fullname</label>
+    <input type="text" id="funame" name="Fullname"></p>
+<p><label for="mail">Email</label>
+    <input type="email" id="mail" name="Email"></p>
+<p><label for="pswd">Password</label>
+    <input type="password" id="pswd" name="Password"></p>  
+<p><label for="plabi">Place Birth</label>
+    <input type="text" id="plabi" name="Place Birth"></p>
+<p><label for="birda">Birthdate</label>
+    <input type="date" id="birda" name="Birthdate"></p>
+<p><label for="gender">Gender</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label></p>
+<button type="submit">Save</button>    
+<button type="reset">Clear</button> 
+
+</body>
+</html>
