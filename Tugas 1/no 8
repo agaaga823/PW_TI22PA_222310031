@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Agatha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+        <h1>Agatha</h1>
+        <p>Portofolio dan Curriculum Vitae</p>
+    </div>
+</header>
+    
+<nav>
+    <div class="konten">
+        <section class="tentang-saya">
+            <img src="images/foto-profil.jpg" alt="Foto Profil">
+            <h2>Tentang Saya</h2>
+            <p>
+                [Tulis deskripsi singkat tentang diri Anda, keahlian, dan pengalaman.]
+            </p>
+        </section></nav>
+    
+<article><section class="keahlian">
+            <h2>Keahlian Saya</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+        </section></article>
+        
+
+        <section class="pengalaman">
+            <h2>Pengalaman Kerja</h2>
+            <div class="pengalaman-item">
+                <h3>[Jabatan] - [Nama Perusahaan]</h3>
+                <p>[Tahun Bekerja]</p>
+                <ul>
+                    <li>[Deskripsi tanggung jawab utama]</li>
+                    <li>[Deskripsi pencapaian]</li>
+                </ul>
+            </div>
+            <div class="pengalaman-item">
+                <h3>[Jabatan] - [Nama Perusahaan]</h3>
+                <p>[Tahun Bekerja]</p>
+                <ul>
+                    <li>[Deskripsi tanggung jawab utama]</li>
+                    <li>[Deskripsi pencapaian]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="pendidikan">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>[Nama Universitas] - [Gelar Pendidikan] ([Tahun Lulus])</li>
+                <li>[Nama SMA] ([Tahun Lulus])</li>
+            </ul>
+        </section>
+
+        <section class="kontak">
+            <h2>Kontak Saya</h2>
+            <ul>
+                <li>Email: [Alamat Email Anda]</li>
+                <li>Nomor Telepon: [Nomor Telepon Anda]</li>
+                <li>LinkedIn: [Link LinkedIn Anda]</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; [Tahun] - [Nama Lengkap Anda]</p>
+    </footer>
+</body>
+</html>
