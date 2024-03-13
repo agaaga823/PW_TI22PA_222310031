@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-6</title>
+    </head>
+
+    <body>
+        <h1>Top 10 Daftar Bahasa Pemrograman</h1>
+        <h2>Daftar isi:</h2>
+        <ul>
+            <li><a href="#C1">Python</a></li>
+            <li><a href="#C2">JavaScript</a></li>
+            <li><a href="#C3">Java</a></li>
+            <li><a href="#C4">C#</a></li>
+            <li><a href="#C5">C</a></li>
+            <li><a href="#C6">C++</a></li>
+            <li><a href="#C7">Go</a></li>
+            <li><a href="#C8">R</a></li>
+            <li><a href="#C9">Swift</a></li>
+            <li><a href="#C10">PHP</a></li>
+        </ul>
+        <h2 id="C1">Python</h2>
+        <p style="text-align: justify;">Python adalah bahasa pemrograman tujuan umum yang ditafsirkan, tingkat tinggi. Dibuat oleh Guido van Rossum dan pertama kali dirilis pada tahun 1991, filosofi desain Python menekankan keterbacaan kode dengan penggunaan spasi putih yang signifikan.</p>
+        <h2 id="C2">JavaScript</h2>
+        <p style="text-align: justify;">JavaScript adalah suatu bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag script.</p>
+        <h2 id="C3">Java</h2>
+        <p style="text-align: justify;">Java adalah bahasa pemrograman yang dapat dijalankan di berbagai komputer termasuk telepon genggam. Bahasa ini awalnya dibuat oleh James Gosling saat masih bergabung di Sun Microsystems, yang saat ini merupakan bagian dari Oracle dan dirilis tahun 1995.</p>
+        <h2 id="C4">C#</h2>
+        <p style="text-align: justify;">C# adalah sebuah bahasa pemrograman berorientasi objek yang dikembangkan oleh Microsoft sebagai bagian dari inisiatif kerangka .NET Framework.</p>
+        <h2 id="C5">C</h2>
+        <p style="text-align: justify;">Bahasa pemrograman C adalah bahasa pemrograman komputer bertujuan umum yang dibuat pada tahun 1972 oleh Dennis Ritchie untuk Sistem Operasi Unix di Bell Telephone Laboratories. Dengan desain, fitur C dengan jelas mencerminkan kemampuan CPU yang ditargetkan.</p>
+        <h2 id="C6">C++</h2>
+        <p style="text-align: justify;">Bahasa C++ adalah bahasa pemrograman yang dikembangkan sebagai peningkatan dari bahasa C untuk memasukkan paradigma pemrograman berorientasi objek (OOP). Bahasa C++ digunakan untuk membangun aplikasi perangkat lunak dan sistem komputer.</p>
+        <h2 id="C7">Go</h2>
+        <p style="text-align: justify;">Go adalah bahasa pemrograman yang dibuat di Google pada tahun 2009 oleh Robert Griesemer, Rob Pike, dan Ken Thompson. Go adalah bahasa pemrograman sumber terbuka yang mudah, sederhana, efisien. Selain itu, Go memiliki level yang sama dengan Java.</p>
+        <h2 id="C8">R</h2>
+        <p style="text-align: justify;">R (juga dikenal sebagai GNU S) adalah bahasa pemrograman dan perangkat lunak untuk analisis statistika dan grafik. R dibuat oleh Ross Ihaka dan Robert Gentleman di Universitas Auckland, Selandia Baru, dan kini dikembangkan oleh R Development Core Team, di mana Chambers merupakan anggotanya.</p>
+        <h2 id="C9">Swift</h2>
+        <p style="text-align: justify;">Swift adalah bahasa pemrograman yang kokoh dan intuitif yang diciptakan Apple untuk mengembangkan aplikasi untuk iOS, Mac, Apple TV, dan Apple Watch. Bahasa ini didesain untuk memberikan lebih banyak kebebasan kepada pengembang.</p>
+        <h2 id="C10">PHP</h2>
+        <p style="text-align: justify;">PHP adalah bahasa pemrograman yang umum dipakai dalam pembuatan dan pengembangan suatu web. PHP merupakan kepanjangan dari Hypertext Prepocessor. PHP adalah bahasa pemrograman yang banyak digunakan secara luas dan secara khusus sesuai untuk pengembangan web.</p>
+
+</body>
+
+<body>
+    <a href="file:///D:/222310031_TugasPW/no4/index.html" target="_self">Go to Latihan-4</a>
+    <p><a href="file:///D:/222310031_TugasPW/no5/index.html" target="_blank">Go to Latihan-5</a></p>
+    <p><a href="https://id.wikipedia.org/wiki/Program_komputer" target="_parent">Go to URL</a></p>
+</body>
+</html>
