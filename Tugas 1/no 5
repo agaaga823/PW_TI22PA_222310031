@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-5</title>
+    <link rel="shortcut icon" href="lamp.png" type="/image.png">
+    <style>
+      .content {
+        border-color: blue;
+        margin: 50px;
+        border-style: solid;
+        padding: 20px;
+      }
+      span {
+        font-weight: bold;
+      }
+      .gmbr {
+        padding: 87px;
+      }
+      img {
+        width: 40px;
+        padding-right: 30px;
+      }
+
+    </style>
+        
+    </head>
+    <body>
+        <h1>Programming Language Base on Career</h1><br><br>
+        <span class="content">Front-end Web Development</span>
+        <span class="content">Back-end Web Development</span>
+        <span class="content">Mobile Development</span>
+      
+        <ul>
+          <div><br>
+          <span class="gmbr"><img src="js.png" alt="Logo Js">JavaScript</span>
+          <span class="gmbr"><img src="js.png" alt="Logo Js">JavaScript</span>
+          <span class="gmbr"><img src="js.png" alt="Logo Js">JavaScript</span>
+          </div>
+      
+          <div>
+          <span class="gmbr"><img src="elm.png" alt="Logo Elm">Elm</span>
+          <span class="gmbr" style="margin: 44px;"><img src="scala.png" alt="Logo Scala">Scala</span>
+          <span class="gmbr" ><img src="java.png" alt="Logo Java">Java</span>
+          </div>
+      
+          <div>
+          <span class="gmbr"><img src="typescript.png" alt="Logo TypeScript">TypeScript</span>
+          <span class="gmbr" style="margin-right: 52px;"><img src="go.png" alt="Logo Go">Go</span>
+          <span class="gmbr"><img src="objective-c.png" alt="Logo objective-c">Objective C</span>
+          </div>
+      
+          <div>
+          <span class="gmbr"></span>
+          <span class="gmbr" style="margin-left: 150px; margin-right: 35px;"><img src="ruby.png" alt="Logo Ruby">Ruby</span>
+          <span class="gmbr"><img src="swift.png" alt="Logo Swift">Swift</span>
+          </div>
+      
+          <div>
+          <span class="gmbr" style="margin-left: 150px;"></span>
+          <span class="gmbr"><img src="python.png" alt="Logo Python">Python</span>
+          </div>
+        </ul><br>
+    <body>
+
+        <h1>Top 10 Programming Language in 2022</h1>
+    <iframe src="file:///D:/222310031_TugasPW/no4/index.html" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+         
+    <h1>List of programming languages from Wikipedia</h1>
+    <iframe src="https://en.wikipedia.org/wiki/List_of_programming_languages" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </body>
+    </html>
