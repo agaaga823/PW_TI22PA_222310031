@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-4</title>
+    <style>
+        body {background-color: rgb(240, 244, 245);}
+        h1 {color: rgb(8, 8, 8); }
+        P {color: rgb(3, 3, 3);}
+        J {color: rgb(201, 46, 46)}
+        </style>
+</head>
+<body>
+    
+    <h1><b>The 10 Most Popular Programming Languages to Learn in 2022</b></h1>
+    <p style="text-align: justify;">There’s no question that software programming is a hot career right now. The <J>U.S.
+        Bureau of Labor Statistics</J> projects 21 percent growth for programming jobs from 
+        2018 to 2028, which is more than four times the average for all occupations. What’s 
+        more, the median annual pay for a software programmer is about $106,000, which 
+        is nearly three times the median pay for all U.S. workers.</p>
+    <p style="text-align: justify;">Not all programming jobs are the same, however. Different roles, companies, and types of software require knowing and understanding different 
+            programming languages—and it’s often beneficial to know multiple 
+            languages. Trying to break into the field of software programming can be a 
+            daunting experience, especially for professionals with no prior programming 
+            experience</p>
+    <p style="text-align: justify;">The <a href="https://www.khoury.northeastern.edu/programs/align-masters-of-science-in-computer-science/" target="_blank"> Master of Science in Computer Science Align program </a> at Northeastern  
+        University is specifically designed for students who want to transition into 
+        computer science from another field of study.</p>        
+    <p style="text-align: center;">“<i>Our aim is to transport students from a variety of different backgrounds 
+        and have them come out as software engineers,</i>” says Ian Gorton, PhD and 
+        22 director of the graduate computer science programs at Northeastern 
+        University—Seattle. “<i>We focus on math, programming, and a variety of
+        computer science and engineering concepts.</i>”</p>
+    <p style="text-align: right;">Whether you’re new to programming or looking to brush up on your skills, it 
+        helps to know which languages are in high demand. Here are 10 of the most 
+        popular programming languages of 2020 based on the number of job postings 
+        listed on job search sites Indeed, the average annual salary for those jobs, and 
+        factors such as ease of use and potential for growth.</p>
+        
+    <h1><b>Top 10 Most Popular Programming Languages</b></h1>
+    <ol>
+        <li>Python
+            <p><j>Average annual salary</j>: <b>$120.000</b></p>
+        </li>
+
+        <li>JavaScript
+            <p><j>Average annual salary</j>: <b>$118.000</b></p>
+        </li>
+        <li>Java
+            <p><j>Average annual salary</j>: <b>$104.000</b></p>
+        </li>
+        <li>C#
+            <p><j>Average annual salary</j>: <b>$97.000</b></p>
+        </li>
+        <li>C
+            <p><j>Average annual salary</j>: <b>$97.000</b></p>
+        </li>
+        <li>C++
+            <p><j>Average annual salary</j>: <b>$97.000</b></p>
+        </li>
+        <li>Go
+            <p><j>Average annual salary</j>: <b>$93.000</b></p>
+        </li>
+        <li>R
+            <p><j>Average annual salary</j>: <b>$93.000</b></p>
+        </li>
+        <li>Swift
+            <p><j>Average annual salary</j>: <b>$93.000</b></p>
+        </li>
+        <li>PHP
+            <p><j>Average annual salary</j>: <b>$81.000</b></p>
+        </li>
+        
+    </ol>
+
+    <h1><b>7 Other Programming Languages to Consider</b></h1>
+    <ul>
+        <li><b>Web-based</b> startups are more likely to be programming in <b>Python</b> and 
+            <b>JavaScript.</b></li>
+        <li>Larger companies tend to develop their internal software applications 
+            using <b>C#</b>or Java and their <b>Web applications using PHP.</b></li>
+        <li>Programs for data analytics typically use the <b>R</b> and <b>MATLAB</b>
+            programming languages.</li>
+        <li><i><u>Embedded devices</i></u>, such as those in the automotive and healthcare 
+            industries, run software written in <b>C, C++, or Rust.</b></li>
+        <li> Applications that run on the cloud are increasingly written in <b>Go or 
+            Scala.</b></li>
+        <li><b>Mobile applications</b> are increasingly written in Swift or Kotlin.</li>
+    </ul>
+    
+</html>
