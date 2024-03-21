@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-1</title>
+   
+    <style>
+        h1{
+             color: black;
+             text-align: left; 
+         }
+
+        p{
+            color: black;
+            text-align: justify; 
+        }
+
+        k{
+            color: green;
+             text-align: left; 
+         }
+
+         k4{
+            color : red;
+         }
+
+         k5{
+            color: yellow;
+         }
+
+         k6{
+            color: green;
+         }
+
+         #klmt1{
+            background-color: rgb(44, 241, 225);
+        }
+
+        #klmt2{
+            background-color: rgb(76, 255, 91);
+        }
+
+        #klmt3{
+            background-color: rgb(255, 76, 195);
+        }
+
+        #font1{
+            font-family: 'Courier New', Courier, monospace ;
+            font-weight: thin;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        th {
+            background-color: rgb(54, 83, 247);
+        }
+
+        k2{
+            color:aliceblue;
+        }
+        
+         </style>
+       
+</head>
+
+<body>
+    <h1>Mengenal Partikel dan Notasi Atom</h1>
+    <p><k>Nama anda</k>,<span style="font-size: 10px;">20 Feb 2022 – 08:55 am</span></p>
+    <h1 style="border-bottom: 2px solid black;"></h1>
+    <div style="display: flex; justify-content: center;">
+        <img src="Mikir.png">
+      </div>
+      <p>Perhatikan sekeliling kalian, matahari terbit dari timur di pagi hari, bulan muncul pada 
+        malam hari, bumi mengelilingi matahari dalam dua belas bulan, dan banyak lagi keteraturan 
+        di alam semesta ini. Hebat ya Sang Pencipta kita mengatur alam semesta ini dengan rapi. 
+        Bahkan, sampai tingkat paling kecil pun, elektron-elektron di alam semesta ini telah diatur 
+        dengan rapi menurut bilangan kuantumnya! <b>Wow apa tuh bilangan kuantum?</b></p>
+    <div>
+        <p><k1 id="klmt1">Elektron-elektron tersebar di sekeliling atom dengan teratur berdasarkan tingkat energinya.</k1>Nah, tingkat energi inilah yang digambarkan dengan bilangan kuantum. Artinya, dari 
+            bilangan kuantum, lokasi-lokasi penyebaran elektron dapat digambarkan. Sedetail itu loh 
+            Sang Pencipta kita mengaturnya. Bayangkan kalau elektron, penyusun segala sesuatu di 
+            alam semesta ini, tidak teratur. Alam semesta ini tidak stabil dong. Mana bisa kita hidup di 
+            dunia seperti itu. Keren kan?</p>
+    </div>
+    <div>
+        <p>Salah satu contoh atom di alam semesta ini adalah atom karbon.<k1 id="klmt1">Atom karbon adalah 
+            penyusun dari berbagai benda yang sangat berguna.</k1> <k1 id="klmt2">Mulai dari bensin, plastik, berlian, bahkan tubuh kita pun tersusun dari karbon!</k1>  Nah, karbon (biasa dilambangkan dengan 
+            huruf C) punya 6 elektron. Bagaimana bilangan kuantum dari elektron terakhirnya? Tinggal 
+            ikuti deh langkah-langkahnya.</p>
+    </div>
+<br>
+    <p style="white-space: pre-wrap;"><h4><b><u>Partikel Dasar Penyusun Atom dan Lambang Atom</u></b></h4></p>
+    
+    <p>Partikel dasar penyusun atom ada tiga yaitu proton (p), neutron (n) dan elektron (e). Jadi, <k1 id="font1">massa atom = (massa p + massa n) + massa e</k1>. Massa elektron jauh lebih kecil 42 daripada massa proton dan massa neutron, maka massa elektron dapat diabaikan. <k1 id="font1"><k1 id="klmt3">Dengan demikian: massa atom = massa p + massa n.</k1></k1></p>
+
+
+   <table border="1" width="100%">
+        <tr>
+            <th><k2>Partikel</k2></th>
+            <th><k2>Lambang</k2></th>
+            <th><k2>Massa(g)</k2></th>
+            <th><k2>Muatan</k2></th>
+        </tr>
+            <tr>
+                <td>Proton</td>
+                <td>P</td>
+                <td>1.673 x 10-24</td>
+                <td coloumspan="2">
+                            <table>
+                                <tr>
+                                    <th><k2>Satuan</k2></th>
+                                    <th><k2>Coulomb</k2></th></tr>
+                                </tr>
+                                <tr>
+                                    <td>+1</td>
+                                    <td>1.6 x 10-9</td>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>-1</td>
+                                    <td>1.6 x 10-19</td>
+                                </tr>
+                            </table>
+                        </td>
+            </tr>
+            <tr>
+                <td>Neutron</td>
+                <td>n</td>
+                <td>1.673 x 10-24</td>
+            </tr>
+            <tr>
+                <td>Elektron</td>
+                <td>e</td>
+                <td>9.109 x 10-28</td>
+            </tr>
+    </table>
+
+    <h4><b><u>Lambang Atom</u></b></h4>
+      <div style="display: flex; justify-content: space;">
+        <img src="lambang atom.png"> <p><b>X</b> Simbol dari unsur. </p>
+    </div>
+
+    <p><k4>a</k4> nomor atom merupakan jumlah proton. Saat netral (tidak bermuatan) akan 
+        sama dengan jumlah elektron.</p>
+    <p><k6>b</k6> nomor massa melambangkan jumlah proton ditambah jumlah neutron atau disebut 
+        juga jumlah nukleon.</p>
+    <p><k5>c</k5> Muatan/bilangan oksidasi (biloks) terdiri dari melepas elektron (positif) dan 
+        menangkap elektron atau bertambah (negatif).</p>
+<br>
+<div>
+    <p><b>Bagikan artikel ini</b></p>
+    <img src="sosmed.png" style="float: right;">
+</div>
+
