@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-2</title>
+    <style>
+        h1{
+            color: green;
+            text-align: left; 
+        }
+        #klmt1{
+            text-align: justify;
+        }
+        p{
+            text-align: center;
+        }
+        k1{
+            color: black;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid black; 
+        }
+        img {
+            width: 10cm;
+            height: 6cm;
+        }
+        h3{
+            color: blue;
+            text-align: left; 
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <h1>Daftar Hewan Dilindungi</h1>
+       
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="utan.png" alt="Gambar 1">
+                <h3>Orang Utan</h3>
+                <p id="klmt1">Orang utan dicirikan oleh rambut di seluruh badannya yang berwarna kemerahan. Satwa ini merupakan mamalia arboreal terbesar yang menghabiskan hampir seluruh waktunya di pepohonan. Lengannya yang panjang dan kuat serta tangan dan kakinya yang dapat mencengkeram erat.
+                </p>
+            </td>
+            <td>
+                <img src="monyet.png" alt="Gambar 2">
+                <h3>Kera Emas</h3>
+                <p id="klmt1">Monyet yang unik ini juga dikenal 
+                    sebagai hewan yang memiliki adaptasi 
+                    yang sangat baik dengan lingkungan 
+                    yang bersuhu sangat dingin. Umumnya, 
+                    monyet hidung pesek rambut emas 
+                    tinggal di hutan pegunungan.
+                    </p>
+            </td>
+            <td>
+                <img src="burung.png" alt="Gambar 3">
+                <h3>Burung Cenderawasih</h3>
+                <p id="klmt1">Burung cenderawasih termasuk ke 
+                    dalam hewan langka dan hanya bisa 
+                    ditemukan di Papua. Burung 
+                    cendrawasih punya tampilan yang cantik 
+                    yang membuat burung ini sering 
+                    menjadi perburuan liar untuk 
+                    didagangkan.</p>
+            </td>
+        </tr>
+    </table>
+
+<div>
+    <p>Copyright © Putri Agatha Naomi 2022</p>
+</div>
+    
+</body>
+</html>
