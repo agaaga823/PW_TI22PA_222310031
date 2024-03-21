@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-3</title>
+    <style>
+        h1{
+            color: black;
+            text-align: left; 
+        }
+        nav {
+            background-color: #4548fd;
+            padding: 15px; /* Menambahkan jarak di sekitar konten di dalam <nav> */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: white;
+        }
+        td {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid black; 
+        }
+        section {
+            font-size: 80px; /* Ukuran font besar */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: #b1b2f3;
+            padding: 90px;
+        }
+        #klmt1{
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #klmt2{
+            text-align: justify;
+            color: black;
+        }
+        #klmt3{
+            text-align: center;
+        }
+        article {
+            margin-bottom: 20px; /* Menambahkan jarak antara dua artikel */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #gmbr1 {
+            width: 10cm;
+            height: 6cm;
+            margin-bottom: 10px; /* Menambahkan jarak antara gambar dan teks */
+        }
+        #gmbr{
+            width: 1cm;
+            height: 0,5cm;
+        }
+        #link1{
+            display: block;
+            text-align: left;
+            color: #14a2f5;
+        }
+        #link1:hover {
+            background-color: #14a2f5; /* Warna latar belakang saat disorot */
+            color: rgb(239, 240, 245); 
+        }
+        time{
+            display: block;
+            color: grey;
+            text-align: right;
+        }
+    </style>
+    </head>
+
+    <body>
+        <h1>Lab Pemrograman Web</h1>
+        <nav> 
+            <tr>
+                <td><img id="gmbr" src="logo ibik.png"></td>
+                <td>Home</td>
+                <td> <a target="_self" href="file:///D:/222310031_TugasPW/Tugas2/no4/index.html">Profile</a></td>
+                <td>Contact Us</td>
+                </tr>
+        </table>
+    </nav>
+    <section>
+        "The purpose <br> of our lives <br> is to be happy." 
+        <br><br>
+        <p id="klmt1">- DALAI LAMA -</p>
+    </section>
+    </body>
+
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <img id="gmbr1" src="Mikir.png" alt="Gambar 1">
+                    <p id="klmt2">An atom is the smallest unit of ordinary matter that 
+                        forms a chemical element. Every solid, liquid gas, and plasma is composed of neutral or ionized atoms.
+                    </p>
+                    <a id="link1" target="_blank" href="file:///D:/222310031_TugasPW/Tugas2/no1/index.html">View</a>
+                    <time datetime="00:09:00">9 mins</time>
+                </td>
+                <td>
+                    <img id="gmbr1" src="hewan.png" alt="Gambar 2">
+                    <p id="klmt2">World Wildlife Fund is committed to 
+                        endangered species protection. See how we are 
+                        ensuring that the world our children inherit will be home to the same.
+                    </p>
+                    <a id="link1" target="_blank" href="file:///D:/222310031_TugasPW/Tugas2/no2/index.html">View</a>
+                    <time datetime="00:09:00">9 mins</time>
+                </td>
+                </tr>
+                </table>
+                <div>
+                    <p id="klmt3">Copyright © Putri Agatha Naomi 2022</p>
+                </div>
+    </body>
+</html>
