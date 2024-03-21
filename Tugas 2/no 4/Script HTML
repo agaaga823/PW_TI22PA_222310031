@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-4</title>
+   
+    <style>
+        h1{
+             color: black;
+             text-align: left; 
+         }
+
+        p{
+            color: black;
+            text-align: justify; 
+        }
+        #k1{
+            color: black;
+            text-align: center; 
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1cm;
+        }
+
+         k4{
+            color : red;
+         }
+
+         k5{
+            color: yellow;
+         }
+
+         k6{
+            color: green;
+         }
+
+         #klmt1{
+            background-color: rgb(44, 241, 225);
+        }
+
+        #klmt2{
+            background-color: rgb(76, 255, 91);
+        }
+
+        #klmt3{
+            background-color: rgb(255, 76, 195);
+        }
+
+        #font1{
+            font-family: 'Courier New', Courier, monospace ;
+            font-weight: thin;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        th {
+            background-color: rgb(54, 83, 247);
+        }
+        k2{
+            color:aliceblue;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid black; 
+        }
+        h3{
+            color: blue;
+            text-align: center; 
+        }
+        ul{
+            color: black;
+            text-align: left;
+        }
+        
+         </style>
+       
+</head>
+
+<body> 
+    <h1>Portofolio</h1>
+    <h1 style="border-bottom: 2px solid black;"></h1>
+    <div style="display: flex; justify-content: center;">
+        <img src="saya.JPG" weigh="520" height="440">
+      </div>
+      <p id="k1">Putri Agatha Naomi</p>
+      <table>
+        <tr>
+            <td>
+                <h3>Karakter</h3>
+                <ul>
+                    <li>Baik hati</li>
+                    <li>Tidak Sombong</li>
+                    <li>Penakut</li>
+                    <li>Jago soal percintaan</li>
+                    <li>Pendengar yang Baek</li>
+                    <li>Otak pas-pas an</li>
+                    <li>Rajin tapi di Mata Ortu, Pemalas!</li>
+                   </ul>
+            </td>
+            <td>
+                <h3>Pengalaman</h3>
+                <ul>
+                    <li>Lomba Solo Vokal se-Kota</li>
+                    <li>Pelatihan Design Grafis (cuma sebulan doang) </li>
+                    <li>Jadi babysiter</li>
+                    <li>Endorse produk dari suatu Management (selama nganggur)</li>
+                    <li>Pernah ditinggal pas lagi sayang-sayangnya</li>
+                    <li>Pernah dikhianatin Teman</li>
+                    <li>Jadi anak broken home (dari lahir)</li>
+                   </ul>
+                
+            </td>
+            <td>
+                <h3>Kemampuan</h3>
+                <ul>
+                    <li>Bernyanyi</li>
+                    <li>Menari 
+                        <div>
+                            <video width="320" height="240" controls>
+                            <source src="Dance paro 2.mp4" type="video/mp4"></video></div>
+                       
+                        </li>
+                   </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
