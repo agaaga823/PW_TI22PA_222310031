@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan Faktorial dan Deret</title>
+</head>
+<body>
+    <h1>Perhitungan Faktorial dan Deret</h1>
+    <form action="proses.php" method="POST">
+        <div>
+            <label for="n">N</label>
+            <input type="number" name="n" id="n" required>
+        </div>
+        <div>
+            <button type="button" onclick="hitung()">Hasil</button>
+        </div>
+        <div>
+            Faktorial: <span id="faktorial"></span>
+        </div>
+        <br>
+        <div>
+            Jumlah Deret: <span id="jumlah_deret"></span>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------
+
+//script.js
+function hitung() {
+    var n = parseInt(document.getElementById('n').value);
+  
+    var faktorial = 1;
+    for (var i = 1; i <= n; i++) {
+      faktorial *= i;
+    }
+
+    var jumlahDeret = 0;
+    for (var i = 1; i <= n; i++) {
+      jumlahDeret += i;
+    }
+
+    document.getElementById('faktorial').innerHTML = faktorial;
+    document.getElementById('jumlah_deret').innerHTML = jumlahDeret;
+  }
+  
