@@ -1,0 +1,157 @@
+//Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-2</title>
+</head>
+
+<body>
+    <h1>Travel IBIK Abadi</h1>
+    <table border="1" width="100%">
+        <tr>
+        <th></th>
+        <th><b>Eksekutif</b></th>
+        <th><b>Bisnis</b></th>
+        <th><b>Ekonomi</b></th>
+    </tr>
+        <tr>
+            <td><b>Jakarta</b></td>
+            <td>70000</td>
+            <td>40000</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td><b>Solo</b></td>
+            <td>80000</td>
+            <td>50000</td>
+            <td>20000</td>
+        </tr>
+        <tr>
+            <td><b>Surabaya</b></td>
+            <td>90000</td>
+            <td>60000</td>
+            <td>30000</td>
+        </tr>
+        </table>
+
+        <br>
+        <h3>Data Pemesanan</h3>
+        <br>
+        <div>
+            <label for="nama_pemesan">Nama Pemesan:</label>
+            <input type="text" name="nama_pemesan" id="nama_pemesan" required>
+        </div>
+        <br>
+        <div>
+            <label for="tujuan">Tujuan:</label>
+            <select name="tujuan" id="tujuan" required>
+                <option value="">Pilih Tujuan</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Solo">Solo</option>
+                <option value="Surabaya">Surabaya</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="kelas">Kelas:</label>
+            <select name="kelas" id="kelas" required>
+                <option value="">Pilih Kelas</option>
+                <option value="Eksekutif">Eksekutif</option>
+                <option value="Bisnis">Bisnis</option>
+                <option value="Ekonomi">Ekonomi</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="banyak_tiket">Banyak Tiket:</label>
+            <input type="number" name="banyak_tiket" id="banyak_tiket" required>
+        </div>
+        <br>
+        <div>
+            <label for="member">Member Travel Bintang Abadi?</label>
+            <input type="radio" name="member" id="member_ya" value="Ya">
+            <label for="member_ya">Ya</label>
+            <input type="radio" name="member" id="member_tidak" value="Tidak" checked>
+            <label for="member_tidak">Tidak</label>
+        </div>
+        <br>
+        <div>
+            <button type="button" onclick="hitung()">Hitung</button>
+            <button type="reset" onclick="reset()">Reset</button>
+        </div>
+        <br>
+        <h3>Hasil Perhitungan</h3>
+        <br>
+        <div>
+            Harga Tiket: <span id="harga_tiket"></span>
+        </div>
+        <br>
+        <div>
+            Subtotal: <span id="subtotal"></span>
+        </div>
+        <br>
+        <div>
+            Diskon: <span id="diskon"></span>
+        </div>
+        <br>
+        <div>
+            Total Bayar: <span id="total_bayar"></span>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------
+
+//script.js
+function hitung() {
+    var namaPemesan = document.getElementById('nama_pemesan').value;
+    var tujuan = document.getElementById('tujuan').value;
+    var kelas = document.getElementById('kelas').value;
+    var banyakTiket = parseInt(document.getElementById('banyak_tiket').value);
+    var member = document.querySelector('input[name="member"]:checked').value;
+  
+    var hargaTiket = 0;
+    if (tujuan === "Jakarta") {
+      if (kelas === "Eksekutif") {
+        hargaTiket = 70000;
+      } else if (kelas === "Bisnis") {
+        hargaTiket = 40000;
+      } else {
+        hargaTiket = 10000;
+      }
+    } else if (tujuan === "Solo") {
+      if (kelas === "Eksekutif") {
+        hargaTiket = 80000;
+      } else if (kelas === "Bisnis") {
+        hargaTiket = 50000;
+      } else {
+        hargaTiket = 20000;
+      }
+    } else if (tujuan === "Surabaya") {
+      if (kelas === "Eksekutif") {
+        hargaTiket = 90000;
+      } else if (kelas === "Bisnis") {
+        hargaTiket = 60000;
+      } else {
+        hargaTiket = 30000;
+      }
+    }
+  
+    var subtotal = hargaTiket * banyakTiket;
+
+    var diskon = 0;
+    if (member === "Ya") {
+      diskon = subtotal * 0.1;
+    }
+  
+    var totalBayar = subtotal - diskon;
+  
+    document.getElementById('harga_tiket').innerHTML = hargaTiket.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' });
+    document.getElementById('subtotal').innerHTML = subtotal.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' });
+    document.getElementById('diskon').innerHTML = diskon.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' });
+    document.getElementById('total_bayar').innerHTML = totalBayar.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' });
+  }
