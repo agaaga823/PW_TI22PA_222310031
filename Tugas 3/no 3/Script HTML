@@ -46,4 +46,6 @@ function hitung() {
     document.getElementById('faktorial').innerHTML = faktorial;
     document.getElementById('jumlah_deret').innerHTML = jumlahDeret;
   }
+
+//Maap kang ga sesuai sama yang di soal, abis nya ga ngerti caranya, susah:)//
   
