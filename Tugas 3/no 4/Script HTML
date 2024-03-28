@@ -1,0 +1,62 @@
+//Index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-4</title>
+</head>
+<body>
+    <h1>Perhitungan Saldo Tabungan</h1>
+    <form action="proses.php" method="POST">
+        <div>
+            <label for="saldo">Saldo Awal:</label>
+            <input type="number" name="saldo" id="saldo" required>
+        </div>
+        <br>
+        <div>
+            <label for="bunga">Bunga (%):</label>
+            <input type="number" name="bunga" id="bunga" required>
+        </div>
+        <br>
+        <div>
+            <label for="waktu">Waktu (Bulan):</label>
+            <input type="number" name="waktu" id="waktu" required>
+        </div>
+        <br>
+        <div>
+            <button type="button" onclick="hitung()">Hitung</button>
+        </div>
+        <br>
+        <h3>Hasil Perhitungan</h3>
+        <br>
+        <ul id="saldo_per_bulan"></ul>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------
+
+//script.js
+function hitung() {
+    var saldoAwal = parseInt(document.getElementById('saldo').value);
+    var bunga = parseFloat(document.getElementById('bunga').value);
+    var waktu = parseInt(document.getElementById('waktu').value);
+
+    var saldoPerBulan = [];
+    for (var i = 1; i <= waktu; i++) {
+      var bungaPerBulan = saldoAwal * (bunga / 100);
+      saldoAwal += bungaPerBulan;
+      saldoPerBulan.push(saldoAwal);
+    }
+  
+    var ulSaldoPerBulan = document.getElementById('saldo_per_bulan');
+    ulSaldoPerBulan.innerHTML = "";
+    for (var i = 0; i < waktu; i++) {
+      var li = document.createElement('li');
+      li.innerHTML = Saldo Bulan ${i + 1} = Rp. ${saldoPerBulan[i].toLocaleString('id-ID', { style: 'currency', currency: 'IDR' })};
+      ulSaldoPerBulan.appendChild(li);
+    }
+  }
